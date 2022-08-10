@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color:#eceff1;
+  color: #010b40;
+}
+
+.app {
+
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  border-radius: 10px;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  padding-top: 8px;
+  letter-spacing: 1.2px;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+p {
+  font-size: 28px;
+}
+
+.stopwatch-card {
+  position: absolute;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 325px;
+  height: 130px;
+  top: 110px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 35px;
+}
+
+button {
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 35px;
+  color: purple;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
